@@ -1,0 +1,48 @@
+.about-page {
+    background-color: #fffdf6;
+    font-family: 'Segoe UI', sans-serif;
+    padding: 2rem;
+  }
+  
+  .about-section,
+  .benefits-section {
+    background: white;
+    border-radius: 12px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .about-section h2,
+  .benefits-section h2 {
+    color: #5c8a42;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .about-section p {
+    font-size: 1.1rem;
+    color: #444;
+    line-height: 1.6;
+  }
+  
+  .benefits-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .benefits-section li {
+    font-size: 1.1rem;
+    color: #333;
+    margin: 0.5rem 0;
+    padding-left: 1rem;
+    position: relative;
+  }
+  
+  .benefits-section li::before {
+    content: '✔';
+    position: absolute;
+    left: 0;
+    color: #5c8a42;
+  }
+  

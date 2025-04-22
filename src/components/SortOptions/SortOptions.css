@@ -1,0 +1,11 @@
+.sort-options {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 0;
+  }
+  
+  .sort-options select {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
